@@ -4,5 +4,5 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :aot [foo.main]
-  :main foo.main
+  :main ^:skip-aot foo.main
   :dependencies [[org.clojure/clojure "1.8.0"]])
