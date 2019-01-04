@@ -1,4 +1,5 @@
-(ns foo.core)
+(ns foo.core
+  (:gen-class))
 
 (println "This is ridiculous")
 
